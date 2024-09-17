@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -29,7 +31,7 @@ nav {
     width: 200px;
     padding: 60px 10px 10px 10px;
     font-size: 0.9em;
-    background-color: rgb(11, 164, 0);
+    background-color: rgba(94, 199, 128, 1);
     position: fixed;
     top: 0;
     left: 0;
@@ -37,6 +39,7 @@ nav {
     overflow-y: auto;
     transition: transform 0.3s ease;
     z-index: 1000;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 nav.hidden {
