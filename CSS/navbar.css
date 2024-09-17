@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.burger-menu {
+    display: block;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.burger-menu .bar {
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    margin: 4px 0;
+}
+
+nav {
+    width: 200px;
+    padding: 60px 10px 10px 10px;
+    font-size: 0.9em;
+    background-color: rgb(11, 164, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    overflow-y: auto;
+    transition: transform 0.3s ease;
+    z-index: 1000;
+}
+
+nav.hidden {
+    transform: translateX(-180px);
+}
+
+nav p {
+    color: white;
+    font-size: 1em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-bottom: 5px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+nav ul li ul {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+nav ul li ul li {
+    margin-bottom: 5px;
+}
+
+nav ul li a:hover {
+    color: lightgreen;
+}
+
+@media (min-width: 769px) {
+    .burger-menu {
+        display: none;
+    }
+
+    nav {
+        width: 300px;
+        padding: 20px;
+        font-size: 1em;
+    }
+
+    nav.hidden {
+        transform: none;
+    }
+
+    nav p {
+        font-size: 1.2em;
+    }
+
+    nav ul li a {
+        font-size: 1.1em;
+    }
+
+    nav ul li ul li {
+        margin-bottom: 10px;
+    }
+}
