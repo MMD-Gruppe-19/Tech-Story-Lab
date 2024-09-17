@@ -21,7 +21,4 @@ Dette projekt er et fuldstændigt redesign af Tech&Story Lab's eksisterende hjem
 
 ## Gruppemedlemmer
 
-- **[Navn 1]** - Frontend udvikling
-- **[Navn 2]** - Backend udvikling
-- **[Navn 3]** - UX/UI designer
-- **[Navn 4]** - Projektleder
+- **[Navn 1]** - Role
