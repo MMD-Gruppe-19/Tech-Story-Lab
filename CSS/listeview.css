@@ -50,6 +50,12 @@ h2, h3, p {
 h2 {
     font-size: 35px;
     font-weight: bold;
+    margin-top: 0.3em;
+}
+
+.overskrifter {
+    margin-left: 1em;
+    padding: 1em;
 }
 
 h3 {

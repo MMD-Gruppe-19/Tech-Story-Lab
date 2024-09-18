@@ -41,3 +41,14 @@ function toggleMenu() {
     const navbar = document.getElementById('navbar');
     navbar.classList.toggle('hidden');
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Find alle links i navigationen
+    const navLinks = document.querySelectorAll("#navbar ul ul a");
+
+    // Opdater href for hvert link
+    navLinks.forEach(link => {
+      const category = link.textContent.trim(); // Hent tekstindhold og fjern evt. whitespace
+      link.href = `listeview.html?kategori=${encodeURIComponent(category)}`;
+    });
+  });
