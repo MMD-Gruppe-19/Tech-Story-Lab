@@ -1,0 +1,131 @@
+/*** Variabler – farver ***/
+html {
+  --red: #ea5045;
+  --blue: #22314a;
+  --grey: #ededed;
+}
+
+/*** Navbar ***/
+main {
+  display: grid;
+  grid-template-columns: 3rem auto;
+}
+
+.main {
+  margin-left: 0.5rem;
+}
+
+@media (min-width: 769px) {
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 769px) {
+  main {
+    display: grid;
+    grid-template-columns: 19.5rem auto;
+  }
+}
+
+/*** Overskrifter ***/
+h2 {
+  color: var(--red);
+  font-size: 3rem;
+  margin-top: 0.4rem;
+}
+
+h3 {
+  color: var(--blue);
+  font-size: 2rem;
+  margin-top: 0.5rem;
+}
+
+p {
+  color: var(--blue);
+  line-height: 1.8rem;
+  margin-top: 0.6rem;
+}
+
+/*** Side-indhold ***/
+/*** Guide ***/
+.tal {
+  color: white;
+  font-size: 3rem;
+  font-weight: 600;
+  background-color: var(--blue);
+  padding: 2.2rem;
+  border-radius: 10rem;
+  margin-block: 1rem;
+  max-width: 8rem;
+}
+
+.beskrivelse {
+  max-width: 8rem;
+}
+
+.grid_1-1-1-1 {
+  text-align: center;
+  margin-inline: auto;
+  max-width: 8rem;
+}
+
+@media (min-width: 769px) {
+  .grid_1-1-1-1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    max-width: none;
+  }
+}
+
+/*** Grå info boks ***/
+.info_box {
+  background-color: var(--grey);
+  margin-right: 1rem;
+  padding: 1rem;
+}
+
+/*** Rød husk boks ***/
+.husk_box {
+  background-color: var(--red);
+  color: white;
+  margin-right: 1rem;
+  padding: 1rem;
+  max-width: 300px;
+}
+
+.husk_box p {
+  color: white;
+}
+
+.husk_box h3 {
+  color: white;
+}
+
+@media (min-width: 1315px) {
+  .grid_2-1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .husk_box {
+    margin-top: 1rem;
+  }
+}
+
+/*** Kontakt ***/
+.bold {
+  font-weight: 600;
+}
+
+.grid_1-1-1 p {
+  line-height: 1rem;
+}
+
+@media (min-width: 769px) {
+  .grid_1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
