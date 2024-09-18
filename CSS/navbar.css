@@ -32,7 +32,7 @@ nav {
   padding: 60px 10px 10px 10px;
   font-size: 0.9em;
   background-color: rgba(94, 199, 128, 1);
-  position: fixed;
+/*   position: fixed; */
   top: 0;
   left: 0;
   height: 100%;
@@ -89,6 +89,8 @@ nav ul li a:hover {
     width: 300px;
     padding: 20px;
     font-size: 1em;
+    position: fixed;
+    z-index: 10;
   }
 
   nav.hidden {
