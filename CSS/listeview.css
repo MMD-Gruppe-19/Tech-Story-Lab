@@ -103,7 +103,25 @@ img {
     background-color: var(--hover);
 }
 
+@media (max-width: 699px) {
+    .header-navbar {
+        display: none;
+    }
+
+    .footer-web {
+        display: none;
+    }
+}
+
 @media (min-width: 700px) {
+    .header-mobile {
+        display: none;
+    }
+
+    .footer-mobile {
+        display: none;
+    }
+
     section {
         display: grid;
         grid-template-columns: 1fr 1fr;
