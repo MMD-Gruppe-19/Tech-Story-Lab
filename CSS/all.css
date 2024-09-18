@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url(../font/roboto-condensed.woff2) format('woff2');
+}
+
+html {
+    margin: 0 auto;
+    --red: #EA5045;
+    --dark-blue: #22314A;
+    --grey: #EDEDED;
+    --hover: #475874;
+    font-family: 'Roboto Condensed';
+}
+
+h1 {
+    color: var(--red);
+    font-size: 60px;
+}
+
+h2, h3, p {
+    color: var(--dark-blue);
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+img {
+    max-width: 100%;
+    margin: 0;
+}

@@ -89,7 +89,7 @@ nav ul li a:hover {
     width: 300px;
     padding: 20px;
     font-size: 1em;
-    position: fixed;
+/*     position: fixed; */
     z-index: 10;
   }
 
