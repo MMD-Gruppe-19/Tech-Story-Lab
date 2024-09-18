@@ -22,25 +22,19 @@ function hentData(){
 }
 
 
-/* function hentData() {
-    fetch(url)
-    .then((res) => res.json())
-    .then((produkter) => visProdukter(produkter));
-} */
-
 function visProdukter(produkter) {
     produkter.forEach((produkt) => {
         console.log(produkt);
         const kopi = skabelon.cloneNode(true);
         kopi.querySelector("img").src = ``;
-        kopi.querySelector("h3").textContent = produkt.brand;
-        kopi.querySelector("p").textContent = produkt.produktnavn;
+        kopi.querySelector("h3").textContent = produkt.produktnavn;
+        kopi.querySelector("p").textContent = produkt.brand;
         container.appendChild(kopi);
     });
 };
 
-/* if (params.has("category")) {
-    url = `https://kea-alt-del.dk/t7/api/products?category=${category}`;
+/* if (params.has("kategori")) {
+    url = "https://symziivzktkqwdifbaap.supabase.co/rest/v1/products?kategori=eq." + kategori;
   } else {
-    url = "https://kea-alt-del.dk/t7/api/products";
+    url = "https://symziivzktkqwdifbaap.supabase.co/rest/v1/products";
   } */
