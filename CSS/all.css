@@ -1,36 +1,43 @@
 @font-face {
-    font-family: 'Roboto Condensed';
-    src: url(../font/roboto-condensed.woff2) format('woff2');
+  font-family: "Roboto Condensed";
+  src: url(../font/roboto-condensed.woff2) format("woff2");
 }
 
 html {
-    margin: 0 auto;
-    --red: #EA5045;
-    --dark-blue: #22314A;
-    --grey: #EDEDED;
-    --hover: #475874;
-    font-family: 'Roboto Condensed';
+  margin: 0 auto;
+  --red: #ea5045;
+  --dark-blue: #22314a;
+  --grey: #ededed;
+  --hover: #475874;
+  font-family: "Roboto Condensed";
 }
 
 h1 {
-    color: var(--red);
-    font-size: 60px;
+  color: var(--red);
+  font-size: 60px;
 }
 
-h2, h3, p {
-    color: var(--dark-blue);
+h2,
+h3,
+p {
+  color: var(--dark-blue);
 }
 
 h2 {
-    font-size: 35px;
-    font-weight: bold;
+  font-size: 35px;
+  font-weight: bold;
 }
 
 h3 {
-    font-size: 28px;
+  font-size: 28px;
+}
+
+p {
+  font-size: 20px;
+  /* letter-spacing: 1px; */
 }
 
 img {
-    max-width: 100%;
-    margin: 0;
+  max-width: 100%;
+  margin: 0;
 }

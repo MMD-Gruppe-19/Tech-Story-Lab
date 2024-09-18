@@ -2,6 +2,7 @@
 main {
   display: grid;
   grid-template-columns: 3rem auto;
+  margin-bottom: 2rem;
 }
 
 .main {
@@ -36,11 +37,12 @@ header h1 {
 
 /*** Overskrifter ***/
 h2 {
-  margin-top: 0.4rem;
+  margin-top: 1rem;
 }
 
 h3 {
-  margin-top: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1.2rem;
 }
 
 p {
@@ -82,9 +84,9 @@ p {
 /*** Grå info boks ***/
 .info_box {
   background-color: var(--grey);
-  margin-right: 1rem;
-  margin-top: 1rem;
-  padding: 1rem;
+  margin-left: none;
+  padding-inline: 1rem;
+  padding-block: 3rem;
 }
 
 /*** Rød husk boks ***/
