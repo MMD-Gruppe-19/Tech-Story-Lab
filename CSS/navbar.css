@@ -80,6 +80,11 @@ nav ul li a:hover {
   color: var(--hover);
 }
 
+.active {
+    font-weight: bold;
+}
+
+
 @media (min-width: 769px) {
   .burger-menu {
     display: none;
@@ -109,3 +114,4 @@ nav ul li a:hover {
     margin-bottom: 10px;
   }
 }
+
