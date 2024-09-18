@@ -47,7 +47,7 @@ nav.hidden {
 }
 
 nav p {
-  color: white;
+  color: var(--dark-blue);
   font-size: 1em;
   margin-bottom: 20px;
   font-weight: bold;
@@ -62,7 +62,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: white;
+  color: var(--dark-blue);
   text-decoration: none;
   font-size: 0.9em;
 }
@@ -77,7 +77,7 @@ nav ul li ul li {
 }
 
 nav ul li a:hover {
-  color: lightgreen;
+  color: var(--hover);
 }
 
 @media (min-width: 769px) {

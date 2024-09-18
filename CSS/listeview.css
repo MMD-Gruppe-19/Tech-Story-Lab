@@ -36,20 +36,7 @@ main {
     margin-left: 0.5rem;
     z-index: 1;
   }
-  
-  @media (min-width: 769px) {
-    .main {
-      max-width: 1000px;
-      margin: auto;
-    }
-  }
-  
-  @media (min-width: 769px) {
-    main {
-      display: grid;
-      grid-template-columns: 19.5rem auto;
-    }
-  }
+
 
 h1 {
     color: var(--red);
@@ -100,7 +87,7 @@ img {
     padding: 0.7em 0.7em;
     text-decoration: none;
     margin-top: auto;
-    width: 65px;
+    width: 90px;
 }
 
 .read-more:hover {
@@ -112,4 +99,14 @@ img {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+
+    main {
+        display: grid;
+        grid-template-columns: 19.5rem auto;
+      }
+
+    .main {
+        max-width: 1000px;
+        margin: auto;
+      }
 }
