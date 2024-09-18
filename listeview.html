@@ -3,24 +3,67 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/listeview.css" />
+    <link rel="stylesheet" href="CSS/navbar.css" />
     <title>Produkter</title>
   </head>
   <body>
-    <header></header>
+    <header>
+      <img class="header-navbar" src="img/header-navbar.webp" alt="header" />
+      <img src="img/header-billede.webp" alt="" />
+      <div>
+        <h1>Tech & Story Lab</h1>
+      </div>
+    </header>
     <main>
-      <h1>Produkter</h1>
-      <nav>
-        <ul></ul>
-      </nav>
-      <h2></h2>
-      <section class="products"></section>
-      <template>
-        <article>
-          <img src="" alt="" />
-          <h3></h3>
-          <p></p>
-        </article>
-      </template>
+      <div>
+        <div class="burger-menu" onclick="toggleMenu()">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+        <nav id="navbar" class="hidden">
+          <p>Tech & Story Lab oversigt</p>
+          <ul>
+            <li><a href="">Forsiden</a></li>
+            <li>
+              <a href="">Udstyr</a>
+              <ul>
+                <li><a href="">Kamera</a></li>
+                <li><a href="">Kamera Tilbehør</a></li>
+                <li><a href="">Lagring</a></li>
+                <li><a href="">Lyd</a></li>
+                <li><a href="">Kabler</a></li>
+                <li><a href="">Mobile enheder</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="">Studios</a>
+              <ul>
+                <li><a href="">Photo & Video studio</a></li>
+                <li><a href="">Podcast studio</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="main">
+        <h1>Udstyr</h1>
+        <h2></h2>
+        <section class="products"></section>
+        <template>
+          <article>
+            <div class="produkt">
+              <img src="img/sony-kamera.webp" alt="sony kamera" />
+              <div class="produkt-info">
+                <h3></h3>
+                <p></p>
+                <a class="read-more" href="">Læs Mere</a>
+              </div>
+            </div>
+          </article>
+        </template>
+      </div>
     </main>
     <footer></footer>
     <script src="JS/listeview.js"></script>

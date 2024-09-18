@@ -10,6 +10,7 @@ const container = document.querySelector(".products");
 
 window.addEventListener("load", hentData);
 
+//Her henter jeg dataen fra supabase
 function hentData(){
     fetch(url, {
         method: "GET", 
@@ -21,26 +22,22 @@ function hentData(){
     .then(visProdukter);
 }
 
-
-/* function hentData() {
-    fetch(url)
-    .then((res) => res.json())
-    .then((produkter) => visProdukter(produkter));
-} */
-
+//Her har jeg lavet en funktion der viser produkterne afhængigt af hvilken kategori man har klikket på
 function visProdukter(produkter) {
+    document.querySelector("h2").textContent = kategori; //Viser den kategori man er inde på 
     produkter.forEach((produkt) => {
         console.log(produkt);
         const kopi = skabelon.cloneNode(true);
-        kopi.querySelector("img").src = ``;
-        kopi.querySelector("h3").textContent = produkt.brand;
-        kopi.querySelector("p").textContent = produkt.produktnavn;
+        //kopi.querySelector("img").src = ``;
+        kopi.querySelector("h3").textContent = produkt.produktnavn;
+        kopi.querySelector("p").textContent = produkt.brand;
+        kopi.querySelector(".read-more").href = `singleview.html?id=${produkt.Objektkode}`;
         container.appendChild(kopi);
     });
 };
 
-/* if (params.has("category")) {
-    url = `https://kea-alt-del.dk/t7/api/products?category=${category}`;
-  } else {
-    url = "https://kea-alt-del.dk/t7/api/products";
-  } */
+// navigations javascript
+function toggleMenu() {
+    const navbar = document.getElementById('navbar');
+    navbar.classList.toggle('hidden');
+}
