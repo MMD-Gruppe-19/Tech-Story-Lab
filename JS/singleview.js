@@ -14,4 +14,17 @@ function getProduct() {
       apikey: key,
     },
   })
-    .then(
+    .then((res) => res.json())
+    .then(visProdukter);
+}
+
+function visProdukter(produkter) {
+  console.log("produkter", produkter);
+  const produkt = produkter[0];
+
+  document.querySelector("h2").textContent = produkt.produktnavn;
+  document.querySelector(".brand").textContent = produkt.brand;
+  document.querySelector(".objektkode").textContent = produkt.Objektkode;
+}
+
+getProduct();
