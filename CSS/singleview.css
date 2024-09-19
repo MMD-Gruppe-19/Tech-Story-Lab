@@ -1,0 +1,30 @@
+.arrowbox {
+  background-color: #5ec780;
+  padding: 2%;
+  width: 15%;
+}
+.infocard1 {
+  place-content: center;
+  padding: 5%;
+  margin: 10%;
+}
+
+.infocard1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #22314a;
+}
+
+.infobox {
+  width: 200px;
+}
+
+@media screen and (max-width: 900px) {
+  .infocard1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0%;
+    margin-top: 1%;
+  }
+}
