@@ -8,8 +8,13 @@ html {
   --red: #ea5045;
   --dark-blue: #22314a;
   --grey: #ededed;
+  --green: #5ec780;
   --hover: #475874;
   font-family: "Roboto Condensed";
+}
+
+body {
+    margin: 0;
 }
 
 h1 {
