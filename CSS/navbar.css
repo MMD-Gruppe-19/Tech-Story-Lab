@@ -11,10 +11,32 @@ body {
   height: 100%;
 }
 
+/*** Navbar ***/
+main {
+  display: grid;
+  grid-template-columns: 3rem auto;
+  margin-bottom: 2rem;
+}
+
+.main {
+  margin-left: 0.5rem;
+}
+
+header {
+  background-color: var(--grey);
+}
+
+header h1 {
+  color: var(--dark-blue);
+  font-weight: bold;
+  padding: 1em;
+  margin-top: 0;
+}
+
 .burger-menu {
   display: block;
   position: fixed;
-  top: 10px;
+  top: 424px;
   left: 10px;
   cursor: pointer;
   z-index: 1001;
@@ -23,7 +45,7 @@ body {
 .burger-menu .bar {
   width: 20px;
   height: 3px;
-  background-color: black;
+  background-color: var(--dark-blue);
   margin: 4px 0;
 }
 
@@ -32,7 +54,7 @@ nav {
   padding: 60px 10px 10px 10px;
   font-size: 0.9em;
   background-color: rgba(94, 199, 128, 1);
-  /*   position: fixed; */
+  position: sticky;
   top: 0;
   left: 0;
   height: 110%;
@@ -81,9 +103,59 @@ nav ul li a:hover {
 }
 
 .active {
-    font-weight: bold;
+  font-weight: bold;
 }
 
+@media (max-width: 769px) {
+  nav p {
+    position: fixed;
+    top: 500px;
+  }
+
+  nav li {
+    position: fixed;
+  }
+
+  nav li:nth-child(1) {
+    top: 550px;
+  }
+
+  nav li:nth-child(2) {
+    top: 570px;
+  }
+
+  nav li:nth-child(3) {
+    top: 700px;
+  }
+
+  .nav_udstyr li:nth-child(1) {
+    top: 590px;
+  }
+
+  .nav_udstyr li:nth-child(2) {
+    top: 610px;
+  }
+
+  .nav_udstyr li:nth-child(3) {
+    top: 630px;
+  }
+
+  .nav_udstyr li:nth-child(4) {
+    top: 650px;
+  }
+
+  .nav_udstyr li:nth-child(5) {
+    top: 670px;
+  }
+
+  .nav_studios li:nth-child(1) {
+    top: 720px;
+  }
+
+  .nav_studios li:nth-child(2) {
+    top: 740px;
+  }
+}
 
 @media (min-width: 769px) {
   .burger-menu {
@@ -114,4 +186,3 @@ nav ul li a:hover {
     margin-bottom: 10px;
   }
 }
-
