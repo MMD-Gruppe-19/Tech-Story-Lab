@@ -3,18 +3,7 @@
     src: url(../font/roboto-condensed.woff2) format('woff2');
 }
 
-html {
-    margin: 0 auto;
-    --red: #EA5045;
-    --dark-blue: #22314A;
-    --grey: #EDEDED;
-    --hover: #475874;
-    font-family: 'Roboto Condensed';
-}
 
-body {
-    margin: 0;
-}
 
 header {
     background-color: var(--grey);

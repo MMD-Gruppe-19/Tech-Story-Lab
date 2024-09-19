@@ -1,5 +1,5 @@
 .arrowbox {
-  background-color: #5ec780;
+  background-color: var(--green);
   padding: 2%;
   width: 15%;
 }
@@ -12,15 +12,14 @@
 .infocard1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #22314a;
+  color: var(--dark-blue);
 }
 
 .infobox {
   width: 200px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 699px) {
   .infocard1 {
     display: grid;
     grid-template-columns: 1fr;
