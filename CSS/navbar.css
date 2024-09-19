@@ -95,6 +95,8 @@ nav ul li a:hover {
   nav p {
     position: fixed;
     top: 550px;
+    padding: 0;
+    line-height: 0;
   }
 
   nav li {
