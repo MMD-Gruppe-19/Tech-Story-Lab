@@ -1,45 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="CSS/navbar.css" />
-  </head>
 
-  <body>
-    <main>
-      <div>
-        <div class="burger-menu" onclick="toggleMenu()">
-          <div class="bar"></div>
-          <div class="bar"></div>
-          <div class="bar"></div>
-        </div>
-        <nav id="navbar" class="hidden">
-          <p>Tech & Story Lab oversigt</p>
-          <ul>
-            <li><a href="index.html">Forsiden</a></li>
-            <li>
-              <a href="">Udstyr</a>
-              <ul>
-                <li><a href="">Kamera</a></li>
-                <li><a href="">Kameratilbehør</a></li>
-                <li><a href="">Lyd</a></li>
-                <li><a href="">Kabler</a></li>
-                <li><a href="">Mobile Enheder</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="">Studios</a>
-              <ul>
-                <li><a href="">Photo & Video studio</a></li>
-                <li><a href="">Podcast studio</a></li>
-              </ul>
-            </li>
-          </ul>
-        </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="CSS/navbar.css" />
+  <link rel="stylesheet" href="CSS/all.css">
+</head>
+
+<body>
+  <header>
+    <img class="header-navbar" src="img/header-navbar.webp" alt="header" />
+    <img class="header-mobile" src="img/header-mobile.webp" alt="" />
+    <img src="img/header-billede.webp" alt="" />
+    <div>
+      <h1>Tech & Story Lab</h1>
+    </div>
+  </header>
+  <main>
+    <div>
+      <div class="burger-menu" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
       </div>
-    </main>
-    <script src="JS/navbar.js"></script>
-  </body>
+      <nav id="navbar" class="hidden">
+        <p>Tech & Story Lab oversigt</p>
+        <ul>
+          <li><a href="index.html">Forsiden</a></li>
+          <li>
+            <a href="">Udstyr</a>
+            <ul>
+              <li><a href="">Kamera</a></li>
+              <li><a href="">Kameratilbehør</a></li>
+              <li><a href="">Lyd</a></li>
+              <li><a href="">Kabler</a></li>
+              <li><a href="">Mobile Enheder</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="">Studios</a>
+            <ul>
+              <li><a href="">Photo & Video studio</a></li>
+              <li><a href="">Podcast studio</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div>
+      <h1>TEST</h1>
+    </div>
+  </main>
+  <footer>
+    <img class="footer-web" src="img/footer.webp" alt="" />
+    <img class="footer-mobile" src="img/footer-mobile.webp" alt="" />
+  </footer>
+  <script src="JS/navbar.js"></script>
+</body>
+
 </html>
