@@ -1,40 +1,3 @@
-/*** Navbar ***/
-main {
-  display: grid;
-  grid-template-columns: 3rem auto;
-  margin-bottom: 2rem;
-}
-
-.main {
-  margin-left: 0.5rem;
-}
-
-@media (min-width: 769px) {
-  .main {
-    max-width: 1000px;
-    margin: auto;
-  }
-}
-
-@media (min-width: 769px) {
-  main {
-    display: grid;
-    grid-template-columns: 19.5rem auto;
-  }
-}
-
-/*** Header ***/
-header {
-  background-color: var(--grey);
-}
-
-header h1 {
-  color: var(--dark-blue);
-  font-weight: bold;
-  padding: 1em;
-  margin-top: 0;
-}
-
 /*** Overskrifter ***/
 h2 {
   margin-top: 1rem;
@@ -86,7 +49,6 @@ p {
 /*** Grå info boks ***/
 .info_box {
   background-color: var(--grey);
-  margin-left: none;
   padding-inline: 1rem;
   padding-block: 3rem;
 }
