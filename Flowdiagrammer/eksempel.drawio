@@ -1,0 +1,334 @@
+<mxfile host="65bd71144e">
+    <diagram id="R1hmZtS5yot7P8YxFel3" name="Page-1">
+        <mxGraphModel dx="808" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;span style=&quot;font-size: 12px&quot;&gt;window load&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="20">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="540" y="260" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="" style="ellipse;fillColor=#000000;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="740" y="180" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="startSpil" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=37;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=25;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="420" width="270" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Skjul andre skærme" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="4">
+                    <mxGeometry y="37" width="270" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Nulstil point og liv" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="4">
+                    <mxGeometry y="57" width="270" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Skriv point og liv ud" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="4">
+                    <mxGeometry y="77" width="270" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Start timer -animation" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="4">
+                    <mxGeometry y="97" width="270" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Sæt random position og random delay på sb" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="4">
+                    <mxGeometry y="117" width="270" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Sæt random position og random delay på b" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="4">
+                    <mxGeometry y="137" width="270" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Start svaev og hastighede -animationer på &#10;begge spil elementer" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="4">
+                    <mxGeometry y="157" width="270" height="33" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;span style=&quot;font-size: 12px&quot;&gt;Klik på play_knap&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="22" target="4">
+                    <mxGeometry x="0.012" relative="1" as="geometry">
+                        <mxPoint x="540" y="337" as="sourcePoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="clickSaebebobleHandler" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=37;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=25;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="620" width="220" height="157" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Frys svæv -animation " style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="13">
+                    <mxGeometry y="37" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Start forsvind_sb -animation" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="13">
+                    <mxGeometry y="57" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Få 1 point" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="13">
+                    <mxGeometry y="77" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Skriv point ud" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="13">
+                    <mxGeometry y="97" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Undersøg point og øg evt. hastigheden" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="13">
+                    <mxGeometry y="117" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Afspil boble_lyd -lyd" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="13">
+                    <mxGeometry y="137" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="sidenVises" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=37;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=25;" vertex="1" parent="1">
+                    <mxGeometry x="685" y="260" width="140" height="77" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Skjul andre skærme" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="20">
+                    <mxGeometry y="37" width="140" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Vis start skærm" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="20">
+                    <mxGeometry y="57" width="140" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="saebebobleReset" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=37;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=25;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="853.5" width="220" height="157" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Vis element igen" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="23">
+                    <mxGeometry y="37" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Fjern alle klasser på sb" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="23">
+                    <mxGeometry y="57" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="Force reflow" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="23">
+                    <mxGeometry y="77" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="Sæt ny random position på sb" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="23">
+                    <mxGeometry y="97" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="Sæt ny random delay på sb" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="23">
+                    <mxGeometry y="117" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="Genstart svaev og hastighed -animation" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="23">
+                    <mxGeometry y="137" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="forsvind_sb -animation færdig" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="13" target="23">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="385" y="737" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="Klik på sæbeboble (sb)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="13">
+                    <mxGeometry x="0.3336" relative="1" as="geometry">
+                        <mxPoint x="-1" as="offset"/>
+                        <mxPoint x="620" y="517" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="svæv -animation kørt én gang" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="26">
+                    <mxGeometry x="0.577" relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="700" y="940"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                        <mxPoint x="700" y="610" as="sourcePoint"/>
+                        <mxPoint x="480.00000000000006" y="917.5000000000001" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="33" value="clickBobleHandler" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=37;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=25;" vertex="1" parent="1">
+                    <mxGeometry x="920" y="630" width="190" height="137" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="Frys svæv -animation " style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="33">
+                    <mxGeometry y="37" width="190" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="Start forsvind_b -animation" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="33">
+                    <mxGeometry y="57" width="190" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="Mist et liv" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="33">
+                    <mxGeometry y="77" width="190" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="Vis antal liv" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="33">
+                    <mxGeometry y="97" width="190" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="Afspil ad_lyd -lyd" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="33">
+                    <mxGeometry y="117" width="190" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="bobleReset" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=37;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=25;" vertex="1" parent="1">
+                    <mxGeometry x="920" y="840" width="220" height="157" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="Vis element igen" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="39">
+                    <mxGeometry y="37" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="Fjern alle klasser på b" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="39">
+                    <mxGeometry y="57" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="Force reflow" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="39">
+                    <mxGeometry y="77" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="Sæt ny random position på b" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="39">
+                    <mxGeometry y="97" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="Sæt ny random delay på b" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="39">
+                    <mxGeometry y="117" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="Genstart svaev og hastighed -animation" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="39">
+                    <mxGeometry y="137" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="forsvind_s -animation færdig" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="33" target="39">
+                    <mxGeometry x="0.0063" relative="1" as="geometry">
+                        <mxPoint x="1015" y="787" as="sourcePoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="Klik på boble (b)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9" target="33">
+                    <mxGeometry x="-0.437" y="5" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="48" value="svæv -animation kørt en gang" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="11">
+                    <mxGeometry x="0.599" relative="1" as="geometry">
+                        <mxPoint x="774.1700000000001" y="617.26" as="sourcePoint"/>
+                        <mxPoint x="920" y="882" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="755" y="882"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="49" value="&lt;span style=&quot;font-size: 12px&quot;&gt;timer -animation færdig&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="6" target="50">
+                    <mxGeometry x="-0.6654" relative="1" as="geometry">
+                        <mxPoint x="1020.0000000000002" y="300" as="sourcePoint"/>
+                        <mxPoint x="1045" y="267" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="50" value="stopSpillet" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=50;" vertex="1" parent="1">
+                    <mxGeometry x="1311" y="580" width="170" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="Fjern alle animationer" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="50">
+                    <mxGeometry y="30" width="170" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="Fjern alle eventListerner-ere" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="50">
+                    <mxGeometry y="50" width="170" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="[point &amp;gt; 10]" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="54">
+                    <mxGeometry x="0.0004" relative="1" as="geometry">
+                        <mxPoint x="1549.9836065573772" y="710" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1446" y="690"/>
+                            <mxPoint x="1535" y="690"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                        <mxPoint x="1446" y="650" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="54" value="levelComplete" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=92;" vertex="1" parent="1">
+                    <mxGeometry x="1460" y="720" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="Vis levelcomplete skærm" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="54">
+                    <mxGeometry y="30" width="150" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="55" target="63">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1465" y="800" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="57" value="gameOver2" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=92;" vertex="1" parent="1">
+                    <mxGeometry x="1275" y="716" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="Vis gameover skærm" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="57">
+                    <mxGeometry y="30" width="140" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="[ellers]" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="57">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1257" y="716" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1399" y="680"/>
+                            <mxPoint x="1345" y="680"/>
+                        </Array>
+                        <mxPoint x="1399" y="650" as="sourcePoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="52" target="69">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1215" y="700" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="61" value="[ingen liv tilbage]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="60">
+                    <mxGeometry x="0.2849" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="62" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="1295" y="900" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="1483" y="887" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="Klik på try_again_3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.819;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="58">
+                    <mxGeometry x="-0.9187" relative="1" as="geometry">
+                        <mxPoint x="844.13" y="419.04999999999995" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1380" y="766"/>
+                            <mxPoint x="1380" y="960"/>
+                            <mxPoint x="1663" y="960"/>
+                            <mxPoint x="1663" y="380"/>
+                            <mxPoint x="844" y="380"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                        <mxPoint x="1350" y="780" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="65" value="Klik på try_again_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=1.015;entryY=0.097;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry x="-0.8847" y="-1" relative="1" as="geometry">
+                        <mxPoint x="894.05" y="438.42999999999984" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1573" y="770"/>
+                            <mxPoint x="1573" y="770"/>
+                            <mxPoint x="1573" y="860"/>
+                            <mxPoint x="1640" y="860"/>
+                            <mxPoint x="1640" y="438"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                        <mxPoint x="1572.5" y="760" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="58" target="62">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1215" y="770" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="1310" y="887"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.213;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="36" target="50">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1110" y="707"/>
+                            <mxPoint x="1140" y="707"/>
+                            <mxPoint x="1140" y="560"/>
+                            <mxPoint x="1347" y="560"/>
+                            <mxPoint x="1347" y="581"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="68" value="[ingen liv tilbage]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="67">
+                    <mxGeometry x="-0.0005" y="1" relative="1" as="geometry">
+                        <mxPoint x="55" y="-2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="69" value="gameOver" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=92;" vertex="1" parent="1">
+                    <mxGeometry x="1150" y="790" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="Vis gameover skærm" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="69">
+                    <mxGeometry y="30" width="140" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="1170" y="974" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="71">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1185" y="840" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="1185" y="961"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="73" value="Klik på try_again_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+                    <mxGeometry x="-0.8724" relative="1" as="geometry">
+                        <mxPoint x="823.5" y="420" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1247" y="840"/>
+                            <mxPoint x="1247" y="1034"/>
+                            <mxPoint x="1691" y="1034"/>
+                            <mxPoint x="1691" y="360"/>
+                            <mxPoint x="824" y="360"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                        <mxPoint x="1211.93" y="839.9300000000001" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
