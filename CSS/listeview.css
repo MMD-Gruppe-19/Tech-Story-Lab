@@ -117,4 +117,13 @@ img {
     }
 
     main {
-        d
+        display: grid;
+        grid-template-columns: 19.5rem auto;
+      }
+
+    .main {
+        max-width: 1000px;
+        margin: auto;
+      }
+    }
+
