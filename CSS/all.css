@@ -55,6 +55,16 @@ header h1 {
   margin-top: 0;
 }
 
+.grid_5-1 {
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+}
+
+.logo {
+  padding-top: 4rem;
+  width: 250px;
+}
+
 /*** Footer ***/
 footer {
   position: absolute;
@@ -97,6 +107,10 @@ img {
   }
 
   .footer-web {
+    display: none;
+  }
+
+  .logo {
     display: none;
   }
 }
