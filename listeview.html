@@ -1,85 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link
-      rel="shortcut icon"
-      href="https://legacy.mit.kea.buchs.dk/images/resources/kea_16.png"
-      type="image/x-icon"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="CSS/listeview.css" />
-    <link rel="stylesheet" href="CSS/navbar.css" />
-    <link rel="stylesheet" href="css/all.css" />
-    <title>Udstyr</title>
-  </head>
 
-  <body>
-    <header>
-      <img class="header-navbar" src="img/header-navbar.webp" alt="header" />
-      <img class="header-mobile" src="img/header-mobile.webp" alt="" />
-      <img src="img/header-billede.webp" alt="" />
-      <div class="grid_5-1">
-        <h1>Tech & Story Lab</h1>
-        <img class="logo" src="img/logo.svg" alt="logo" />
+<head>
+  <meta charset="UTF-8" />
+  <link rel="shortcut icon" href="https://legacy.mit.kea.buchs.dk/images/resources/kea_16.png" type="image/x-icon" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="CSS/listeview.css" />
+  <link rel="stylesheet" href="CSS/navbar.css" />
+  <link rel="stylesheet" href="CSS/all.css" />
+  <title>Udstyr</title>
+</head>
+
+<body>
+  <header>
+    <img class="header-navbar" src="img/header-navbar.webp" alt="header" />
+    <img class="header-mobile" src="img/header-mobile.webp" alt="" />
+    <img src="img/header-billede.webp" alt="" />
+    <div class="grid_5-1">
+      <h1>Tech & Story Lab</h1>
+      <img class="logo" src="img/logo.svg" alt="logo" />
+    </div>
+  </header>
+  <main>
+    <div>
+      <div class="burger-menu" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
       </div>
-    </header>
-    <main>
-      <div>
-        <div class="burger-menu" onclick="toggleMenu()">
-          <div class="bar"></div>
-          <div class="bar"></div>
-          <div class="bar"></div>
-        </div>
-        <nav id="navbar" class="hidden">
-          <p>Tech & Story Lab oversigt</p>
-          <ul>
-            <li><a href="index.html">Forsiden</a></li>
-            <li>
-              <a href="">Udstyr</a>
-              <ul class="nav_udstyr">
-                <li><a href="">Kamera</a></li>
-                <li><a href="">Kameratilbehør</a></li>
-                <li><a href="">Lyd</a></li>
-                <li><a href="">Kabler</a></li>
-                <li><a href="">Mobile Enheder</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="studios.html">Studios</a>
-              <ul class="nav_studios">
-                <li><a href="formular.html">Photo & Video studio</a></li>
-                <li><a href="formular.html">Podcast studio</a></li>
-              </ul>
-            </li>
-          </ul>
-        </nav>
+      <nav id="navbar" class="hidden">
+        <p>Tech & Story Lab oversigt</p>
+        <ul>
+          <li><a href="index.html">Forsiden</a></li>
+          <li>
+            <a href="">Udstyr</a>
+            <ul class="nav_udstyr">
+              <li><a href="">Kamera</a></li>
+              <li><a href="">Kameratilbehør</a></li>
+              <li><a href="">Lyd</a></li>
+              <li><a href="">Kabler</a></li>
+              <li><a href="">Mobile Enheder</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="studios.html">Studios</a>
+            <ul class="nav_studios">
+              <li><a href="formular.html">Photo & Video studio</a></li>
+              <li><a href="formular.html">Podcast studio</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="main">
+      <div class="overskrifter">
+        <h1>Udstyr</h1>
+        <h2></h2>
       </div>
-      <div class="main">
-        <div class="overskrifter">
-          <h1>Udstyr</h1>
-          <h2></h2>
-        </div>
-        <section class="products"></section>
-        <template>
-          <article>
-            <div class="produkt">
-              <img src="img/sony-kamera.webp" alt="sony kamera" />
-              <div class="produkt-info">
-                <h3></h3>
-                <p></p>
-                <a class="read-more" href="">Læs Mere</a>
-              </div>
+      <section class="products"></section>
+      <template>
+        <article>
+          <div class="produkt">
+            <img src="img/sony-kamera.webp" alt="sony kamera" />
+            <div class="produkt-info">
+              <h3></h3>
+              <p></p>
+              <a class="read-more" href="">Læs Mere</a>
             </div>
-          </article>
-        </template>
-      </div>
-    </main>
-    <footer>
-      <img class="footer-web" src="img/footer.webp" alt="" />
-      <img class="footer-mobile" src="img/footer-mobile.webp" alt="" />
-    </footer>
-    <script src="JS/listeview.js"></script>
-    <script src="JS/navbar.js"></script>
-  </body>
+          </div>
+        </article>
+      </template>
+    </div>
+  </main>
+  <footer>
+    <img class="footer-web" src="img/footer.webp" alt="" />
+    <img class="footer-mobile" src="img/footer-mobile.webp" alt="" />
+  </footer>
+  <script src="JS/listeview.js"></script>
+  <script src="JS/navbar.js"></script>
+</body>
+
 </html>
