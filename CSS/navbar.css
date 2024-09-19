@@ -21,7 +21,7 @@ header h1 {
 .burger-menu {
   display: block;
   position: fixed;
-  top: 424px;
+  top: 500px;
   left: 10px;
   cursor: pointer;
   z-index: 1001;
@@ -94,7 +94,7 @@ nav ul li a:hover {
 @media (max-width: 769px) {
   nav p {
     position: fixed;
-    top: 500px;
+    top: 530px;
   }
 
   nav li {
@@ -150,8 +150,8 @@ nav ul li a:hover {
   nav {
     width: 300px;
     padding: 20px;
+    position: sticky;
     font-size: 1em;
-    /*     position: fixed; */
     z-index: 10;
   }
 
