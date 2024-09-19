@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 172.68 56.17">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-2 {
+        letter-spacing: .04em;
+      }
+
+      .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #233249;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        font-family: Futura-Medium, Futura;
+        font-size: 19.46px;
+        font-weight: 500;
+      }
+
+      .cls-6 {
+        letter-spacing: .02em;
+      }
+
+      .cls-7 {
+        letter-spacing: .03em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <text class="cls-4" transform="translate(24.74 29.63)"><tspan class="cls-1" x="0" y="0">T</tspan><tspan x="8.59" y="0">e</tspan><tspan class="cls-7" x="19.36" y="0">c</tspan><tspan x="29.14" y="0">h &amp; </tspan><tspan class="cls-6" x="0" y="20.92">S</tspan><tspan class="cls-5" x="11.68" y="20.92">t</tspan><tspan x="17.14" y="20.92">o</tspan><tspan class="cls-2" x="28.83" y="20.92">r</tspan><tspan x="36.97" y="20.92">y Lab</tspan></text>
+      <rect class="cls-3" x=".54" y="34.59" width="16.52" height="16.52" transform="translate(-34.04 51.65) rotate(-90)"/>
+      <circle class="cls-3" cx="8.8" cy="25.78" r="8.8"/>
+      <circle class="cls-3" cx="8.8" cy="8.8" r="8.8"/>
+    </g>
+  </g>
+</svg>

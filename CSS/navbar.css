@@ -11,21 +11,6 @@ body {
   height: 100%;
 }
 
-/*** Navbar ***/
-main {
-  display: grid;
-  grid-template-columns: 3rem auto;
-  margin-bottom: 2rem;
-}
-
-.main {
-  margin-left: 0.5rem;
-}
-
-header {
-  background-color: var(--grey);
-}
-
 header h1 {
   color: var(--dark-blue);
   font-weight: bold;
