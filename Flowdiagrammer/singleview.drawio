@@ -1,0 +1,44 @@
+<mxfile host="65bd71144e">
+    <diagram id="YtaKK3qqHXIGIukq3icr" name="Page-1">
+        <mxGraphModel dx="851" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" style="edgeStyle=none;html=1;shadow=0;strokeColor=#000000;" parent="1" source="2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="435" y="190" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="" style="ellipse;strokeColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="420" y="100" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;strokeColor=#141414;" edge="1" parent="1" source="4">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="437.5" y="340" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value="getProduct" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=37;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=25;" vertex="1" parent="1">
+                    <mxGeometry x="365" y="190" width="145" height="77" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Fetch" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="4">
+                    <mxGeometry y="37" width="145" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Konverterer data til JSON" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="4">
+                    <mxGeometry y="57" width="145" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="visProdukter" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=37;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=25;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="340" width="195" height="97" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Udskriver produktnavn i h2" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="9">
+                    <mxGeometry y="37" width="195" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Udskriver brand i .brand" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="9">
+                    <mxGeometry y="57" width="195" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Udskriver objektkode i .objektkode" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="9">
+                    <mxGeometry y="77" width="195" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
