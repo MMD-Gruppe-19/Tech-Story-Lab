@@ -21,7 +21,7 @@ header h1 {
 .burger-menu {
   display: block;
   position: fixed;
-  top: 500px;
+  top: 520px;
   left: 10px;
   cursor: pointer;
   z-index: 1001;
@@ -91,10 +91,10 @@ nav ul li a:hover {
   font-weight: bold;
 }
 
-@media (max-width: 769px) {
+@media (max-width: 699px) {
   nav p {
     position: fixed;
-    top: 530px;
+    top: 550px;
   }
 
   nav li {
@@ -102,47 +102,47 @@ nav ul li a:hover {
   }
 
   nav li:nth-child(1) {
-    top: 550px;
-  }
-
-  nav li:nth-child(2) {
     top: 570px;
   }
 
-  nav li:nth-child(3) {
-    top: 700px;
-  }
-
-  .nav_udstyr li:nth-child(1) {
+  nav li:nth-child(2) {
     top: 590px;
   }
 
-  .nav_udstyr li:nth-child(2) {
-    top: 610px;
-  }
-
-  .nav_udstyr li:nth-child(3) {
-    top: 630px;
-  }
-
-  .nav_udstyr li:nth-child(4) {
-    top: 650px;
-  }
-
-  .nav_udstyr li:nth-child(5) {
-    top: 670px;
-  }
-
-  .nav_studios li:nth-child(1) {
+  nav li:nth-child(3) {
     top: 720px;
   }
 
-  .nav_studios li:nth-child(2) {
+  .nav_udstyr li:nth-child(1) {
+    top: 610px;
+  }
+
+  .nav_udstyr li:nth-child(2) {
+    top: 630px;
+  }
+
+  .nav_udstyr li:nth-child(3) {
+    top: 650px;
+  }
+
+  .nav_udstyr li:nth-child(4) {
+    top: 670px;
+  }
+
+  .nav_udstyr li:nth-child(5) {
+    top: 690px;
+  }
+
+  .nav_studios li:nth-child(1) {
     top: 740px;
+  }
+
+  .nav_studios li:nth-child(2) {
+    top: 760px;
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 699px) {
   .burger-menu {
     display: none;
   }
