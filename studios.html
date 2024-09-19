@@ -23,9 +23,9 @@
     <main>
         <div>
             <div class="burger-menu" onclick="toggleMenu()">
-                <div class="bar"></div>
-                <div class="bar"></div>
-                <div class="bar"></div>
+                <div class="bar" style="background-color: black; height: 4px; width: 30px; margin: 6px 0;"></div>
+                <div class="bar" style="background-color: black; height: 4px; width: 30px; margin: 6px 0;"></div>
+                <div class="bar" style="background-color: black; height: 4px; width: 30px; margin: 6px 0;"></div>
             </div>
             <nav id="navbar" class="hidden">
                 <p>Tech & Story Lab oversigt</p>
@@ -52,15 +52,19 @@
         </div>
         <div class="wrapper">
             <h1>Studios</h1>
-            <div class="category">
-                <h2>Photo & Video studio</h2>
-                <img src="" alt="">
-                <button>Book Studio</button>
+            <div class="category" style="display: flex; flex-direction: row; align-items: center; margin-bottom: 20px;">
+                <img src="img/photo-and-video-studio.webp" alt="" style="max-height: 200px; max-width: 300px; margin-right: 20px;">
+                <div class="text-button" style="display: flex; flex-direction: column; align-items: flex-start;">
+                    <h2>Photo & Video studio</h2>
+                    <button style="background-color: var(--dark-blue); border: none; font-family: 'Roboto Condensed', sans-serif; color: white; padding: 10px 20px; font-size: 16px; cursor: pointer; margin-top: 10px;">Book Studio</button>
+                </div>
             </div>
-            <div class="category">
-                <h2>Podcast studio</h2>
-                <img src="" alt="">
-                <button>Book Studio</button>
+            <div class="category" style="display: flex; flex-direction: row; align-items: center; margin-bottom: 20px;">
+                <img src="img/podcast-studio.webp" alt="" style="max-height: 200px; max-width: 300px; margin-right: 20px;">
+                <div class="text-button" style="display: flex; flex-direction: column; align-items: flex-start;">
+                    <h2>Podcast studio</h2>
+                    <button style="background-color: var(--dark-blue); border: none; font-family: 'Roboto Condensed', sans-serif; color: white; padding: 10px 20px; font-size: 16px; cursor: pointer; margin-top: 10px;">Book Studio</button>
+                </div>
             </div>
         </div>
     </main>
